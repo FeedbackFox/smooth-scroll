@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none; /* no underline */
+  }
+
+#rood {
+    background-color: red;
+}
+#oranje {
+    background-color: orange;
+}
+#geel {
+    background-color: yellow;
+}
+#groen {
+    background-color: green;
+}
+#blauw {
+    background-color: blue;
+}
+
+section, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+section {
+    height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+    width: 9em;
+}
+
+p, h2 {
+    text-align: center;
+    position: sticky;
+}
+h2 {
+    top: 10vh;
+}
+p {
+    top: 15vh;
+}
+
+ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    border-radius: 25px;
+    background-color: black;
+    opacity: 80%;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0;
+}
+
+.nav__icon {
+    visibility: hidden;
+}
+.nav--active {
+    visibility: visible;
+}
